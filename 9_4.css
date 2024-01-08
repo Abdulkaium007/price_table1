@@ -1,0 +1,122 @@
+.cont{
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 15px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.b1{
+    background-color: white;
+    font-family: 'Lemon', serif;
+    padding: 0px;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 2px 2px black; 
+    flex: 1; 
+    min-width: 200px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.b1:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 8px 5px 0px black;
+    background-color:rgb(245, 255, 254);
+}
+
+.t1{
+    background: linear-gradient(135deg, rgb(18, 156, 255), rgb(146, 6, 238));
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 50% 50%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    height: 40px;
+}
+
+.t2{
+    background: linear-gradient(135deg, rgb(0, 248, 74), rgb(1, 218, 196));
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 50% 50%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    height: 40px;
+}
+
+.t3{
+    background-color: rgb(250, 143, 4);
+    background: linear-gradient(135deg,rgb(250, 143, 4), rgb(250, 246, 4));
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 50% 50%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    height: 40px;
+}
+
+
+*{
+    margin: 0%;
+    list-style: none;
+}
+
+.u{
+    text-align: left;
+    margin-right: 15px;
+    font-family: 'Salsa', cursive;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.body{
+    background-color: rgba(27, 23, 23, 0.845);
+}
+h1{
+    color: ivory;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+
+button{
+    background-color: azure;
+    border-radius: 20px;
+    padding: 4px 10px 4px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: auto;
+    max-width: 100px ;
+    align-self: center;
+    color: rgb(4, 171, 59);
+    font-family: 'Cantata One', serif;
+    font-weight: bold;
+
+}
+
+button:hover{
+    background-color: rgb(5, 229, 95);
+    box-shadow: 0 0 5px rgb(3, 249, 118),
+                0 0 15px rgb(3, 249, 118);
+    transform: scale(1.03);
+    color: azure;
+
+}
+
+@media(max-width: 900px)
+{
+    .cont{
+        flex-direction: column;
+        align-content: center;
+        height: 100%;
+    }
+}
